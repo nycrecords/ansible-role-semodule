@@ -3,9 +3,9 @@
   yum:
     name:
       - checkpolicy
-      - policycoreutils-python
+      - policycoreutils-python-utils
       - policycoreutils
-      - libselinux-python
+      - python3-libselinux
     state: present
 
 - name: Enable selinux
